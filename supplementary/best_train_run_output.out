@@ -1,0 +1,356 @@
+[2024-04-04 10:47:34,365] torch.distributed.run: [WARNING]
+[2024-04-04 10:47:34,365] torch.distributed.run: [WARNING] *****************************************
+[2024-04-04 10:47:34,365] torch.distributed.run: [WARNING] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed.
+[2024-04-04 10:47:34,365] torch.distributed.run: [WARNING] *****************************************
+/cs/home/psyjn4/miniconda3/envs/torch/lib/python3.11/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+/cs/home/psyjn4/miniconda3/envs/torch/lib/python3.11/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Initial model load, doing best score calculations
+Initial model load, doing best score calculations
+/cs/home/psyjn4/miniconda3/envs/torch/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /opt/conda/conda-bld/pytorch_1708025842427/work/torch/csrc/utils/tensor_new.cpp:275.)
+  return torch.tensor(value)
+/cs/home/psyjn4/miniconda3/envs/torch/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /opt/conda/conda-bld/pytorch_1708025842427/work/torch/csrc/utils/tensor_new.cpp:275.)
+  return torch.tensor(value)
+Done batch: 1000/2200
+Done batch: 1000/2200
+Done batch: 2000/2200
+Done batch: 2000/2200
+Epoch 1 Validation Average Precision: 0.7491338835386505
+Epoch: 1. Initial performance: 0.7491338835386505
+Loaded best saved model.
+Epoch 1 Validation Average Precision: 0.7491338835386505
+Epoch: 1. Initial performance: 0.7491338835386505
+Loaded best saved model.
+Done batch: 1000/8000
+Done batch: 1000/8000
+Done batch: 2000/8000
+Done batch: 2000/8000
+Done batch: 3000/8000
+Done batch: 3000/8000
+Done batch: 4000/8000
+Done batch: 4000/8000
+Done batch: 5000/8000
+Done batch: 5000/8000
+Done batch: 6000/8000
+Done batch: 6000/8000
+Done batch: 7000/8000
+Done batch: 7000/8000
+Done batch: 8000/8000
+Done batch: 8000/8000
+Done batch: 1000/2200
+Done batch: 1000/2200
+Done batch: 2000/2200
+Done batch: 2000/2200
+Epoch 1 Validation Average Precision: 0.7704594831813826
+Epoch: 1. Improvement of: 0.021325599642732063
+Done epoch: 1
+Epoch 1
+Loaded best saved model.
+Epoch 1 Validation Average Precision: 0.7685995155803903
+Epoch: 1. Improvement of: 0.01946563204173979
+Done epoch: 1
+Epoch 1
+Loaded best saved model.
+Done batch: 1000/8000
+Done batch: 1000/8000
+Done batch: 2000/8000
+Done batch: 2000/8000
+Done batch: 3000/8000
+Done batch: 3000/8000
+Done batch: 4000/8000
+Done batch: 4000/8000
+Done batch: 5000/8000
+Done batch: 5000/8000
+Done batch: 6000/8000
+Done batch: 6000/8000
+Done batch: 7000/8000
+Done batch: 7000/8000
+Done batch: 8000/8000
+Done batch: 8000/8000
+Done batch: 1000/2200
+Done batch: 1000/2200
+Done batch: 2000/2200
+Done batch: 2000/2200
+Epoch 2 Validation Average Precision: 0.7711725174733627
+Epoch: 2. Improvement of: 0.000713034291980108
+Done epoch: 2
+Epoch 2
+Loaded best saved model.
+Epoch 2 Validation Average Precision: 0.7502223657500503
+Epoch: 2. No improvement, best: 0.7685995155803903 current: 0.7502223657500503. Counter: 1/12
+Done epoch: 2
+Epoch 2
+Loaded best saved model.
+Done batch: 1000/8000
+Done batch: 1000/8000
+Done batch: 2000/8000
+Done batch: 2000/8000
+Done batch: 3000/8000
+Done batch: 3000/8000
+Done batch: 4000/8000
+Done batch: 4000/8000
+Done batch: 5000/8000
+Done batch: 5000/8000
+Done batch: 6000/8000
+Done batch: 6000/8000
+Done batch: 7000/8000
+Done batch: 7000/8000
+Done batch: 8000/8000
+Done batch: 8000/8000
+Done batch: 1000/2200
+Done batch: 1000/2200
+Done batch: 2000/2200
+Done batch: 2000/2200
+Epoch 3 Validation Average Precision: 0.756878892642446
+Epoch: 3. No improvement, best: 0.7711725174733627 current: 0.756878892642446. Counter: 1/12
+Done epoch: 3
+Epoch 3
+Loaded best saved model.
+Epoch 3 Validation Average Precision: 0.7705367665481931
+Epoch: 3. Improvement of: 0.0019372509678028393
+Done epoch: 3
+Epoch 3
+Loaded best saved model.
+Done batch: 1000/8000
+Done batch: 1000/8000
+Done batch: 2000/8000
+Done batch: 2000/8000
+Done batch: 3000/8000
+Done batch: 3000/8000
+Done batch: 4000/8000
+Done batch: 4000/8000
+Done batch: 5000/8000
+Done batch: 5000/8000
+Done batch: 6000/8000
+Done batch: 6000/8000
+Done batch: 7000/8000
+Done batch: 7000/8000
+Done batch: 8000/8000
+Done batch: 8000/8000
+Done batch: 1000/2200
+Done batch: 1000/2200
+Done batch: 2000/2200
+Done batch: 2000/2200
+Epoch 4 Validation Average Precision: 0.7727175748838397
+Epoch: 4. Improvement of: 0.0015450574104770576
+Done epoch: 4
+Epoch 4
+Loaded best saved model.
+Epoch 4 Validation Average Precision: 0.7548563213623949
+Epoch: 4. No improvement, best: 0.7705367665481931 current: 0.7548563213623949. Counter: 1/12
+Done epoch: 4
+Epoch 4
+Loaded best saved model.
+Done batch: 1000/8000
+Done batch: 1000/8000
+Done batch: 2000/8000
+Done batch: 2000/8000
+Done batch: 3000/8000
+Done batch: 3000/8000
+Done batch: 4000/8000
+Done batch: 4000/8000
+Done batch: 5000/8000
+Done batch: 5000/8000
+Done batch: 6000/8000
+Done batch: 6000/8000
+Done batch: 7000/8000
+Done batch: 7000/8000
+Done batch: 8000/8000
+Done batch: 8000/8000
+Done batch: 1000/2200
+Done batch: 1000/2200
+Done batch: 2000/2200
+Done batch: 2000/2200
+Epoch 5 Validation Average Precision: 0.7632035605583187
+Epoch: 5. No improvement, best: 0.7727175748838397 current: 0.7632035605583187. Counter: 1/12
+Done epoch: 5
+Epoch 5
+Loaded best saved model.
+Epoch 5 Validation Average Precision: 0.7679749704290525
+Epoch: 5. No improvement, best: 0.7705367665481931 current: 0.7679749704290525. Counter: 2/12
+Done epoch: 5
+Epoch 5
+Loaded best saved model.
+Done batch: 1000/8000
+Done batch: 1000/8000
+Done batch: 2000/8000
+Done batch: 2000/8000
+Done batch: 3000/8000
+Done batch: 3000/8000
+Done batch: 4000/8000
+Done batch: 4000/8000
+Done batch: 5000/8000
+Done batch: 5000/8000
+Done batch: 6000/8000
+Done batch: 6000/8000
+Done batch: 7000/8000
+Done batch: 7000/8000
+Done batch: 8000/8000
+Done batch: 8000/8000
+Done batch: 1000/2200
+Done batch: 1000/2200
+Done batch: 2000/2200
+Done batch: 2000/2200
+Epoch 6 Validation Average Precision: 0.7437008084664894
+Epoch: 6. No improvement, best: 0.7727175748838397 current: 0.7437008084664894. Counter: 2/12
+Done epoch: 6
+Epoch 6
+Loaded best saved model.
+Epoch 6 Validation Average Precision: 0.7470376305648655
+Epoch: 6. No improvement, best: 0.7705367665481931 current: 0.7470376305648655. Counter: 3/12
+Done epoch: 6
+Epoch 6
+Loaded best saved model.
+Done batch: 1000/8000
+Done batch: 1000/8000
+Done batch: 2000/8000
+Done batch: 2000/8000
+Done batch: 3000/8000
+Done batch: 3000/8000
+Done batch: 4000/8000
+Done batch: 4000/8000
+Done batch: 5000/8000
+Done batch: 5000/8000
+Done batch: 6000/8000
+Done batch: 6000/8000
+Done batch: 7000/8000
+Done batch: 7000/8000
+Done batch: 8000/8000
+Done batch: 8000/8000
+Done batch: 1000/2200
+Done batch: 1000/2200
+Done batch: 2000/2200
+Done batch: 2000/2200
+Epoch 7 Validation Average Precision: 0.7676599938374529
+Epoch: 7. No improvement, best: 0.7727175748838397 current: 0.7676599938374529. Counter: 3/12
+Done epoch: 7
+Epoch 7
+Loaded best saved model.
+Epoch 7 Validation Average Precision: 0.7315699585790626
+Epoch: 7. No improvement, best: 0.7705367665481931 current: 0.7315699585790626. Counter: 4/12
+Done epoch: 7
+Epoch 7
+Loaded best saved model.
+Done batch: 1000/8000
+Done batch: 1000/8000
+Done batch: 2000/8000
+Done batch: 2000/8000
+Done batch: 3000/8000
+Done batch: 3000/8000
+Done batch: 4000/8000
+Done batch: 4000/8000
+Done batch: 5000/8000
+Done batch: 5000/8000
+Done batch: 6000/8000
+Done batch: 6000/8000
+Done batch: 7000/8000
+Done batch: 7000/8000
+Done batch: 8000/8000
+Done batch: 8000/8000
+Done batch: 1000/2200
+Done batch: 1000/2200
+Done batch: 2000/2200
+Done batch: 2000/2200
+Epoch 8 Validation Average Precision: 0.7599896081821736
+Epoch: 8. No improvement, best: 0.7727175748838397 current: 0.7599896081821736. Counter: 4/12
+Done epoch: 8
+Epoch 8
+Loaded best saved model.
+Epoch 8 Validation Average Precision: 0.761365621915179
+Epoch: 8. No improvement, best: 0.7705367665481931 current: 0.761365621915179. Counter: 5/12
+Done epoch: 8
+Epoch 8
+Loaded best saved model.
+Done batch: 1000/8000
+Done batch: 1000/8000
+Done batch: 2000/8000
+Done batch: 2000/8000
+Done batch: 3000/8000
+Done batch: 3000/8000
+Done batch: 4000/8000
+Done batch: 4000/8000
+Done batch: 5000/8000
+Done batch: 5000/8000
+Done batch: 6000/8000
+Done batch: 6000/8000
+Done batch: 7000/8000
+Done batch: 7000/8000
+Done batch: 8000/8000
+Done batch: 8000/8000
+Done batch: 1000/2200
+Done batch: 1000/2200
+Done batch: 2000/2200
+Epoch 9 Validation Average Precision: 0.7590390159080309
+Epoch: 9. No improvement, best: 0.7727175748838397 current: 0.7590390159080309. Counter: 5/12
+Done epoch: 9
+Epoch 9
+Loaded best saved model.
+Done batch: 2000/2200
+Epoch 9 Validation Average Precision: 0.7477968133530473
+Epoch: 9. No improvement, best: 0.7705367665481931 current: 0.7477968133530473. Counter: 6/12
+Done epoch: 9
+Epoch 9
+Loaded best saved model.
+Done batch: 1000/8000
+Done batch: 1000/8000
+Done batch: 2000/8000
+Done batch: 2000/8000
+Done batch: 3000/8000
+Done batch: 3000/8000
+Done batch: 4000/8000
+Done batch: 4000/8000
+Done batch: 5000/8000
+Done batch: 5000/8000
+Done batch: 6000/8000
+Done batch: 6000/8000
+Done batch: 7000/8000
+Done batch: 7000/8000
+Done batch: 8000/8000
+Done batch: 8000/8000
+Done batch: 1000/2200
+Done batch: 1000/2200
+Done batch: 2000/2200
+Epoch 10 Validation Average Precision: 0.7627097145140597
+Epoch: 10. No improvement, best: 0.7727175748838397 current: 0.7627097145140597. Counter: 6/12
+Done epoch: 10
+Epoch 10
+Loaded best saved model.
+Done batch: 2000/2200
+Epoch 10 Validation Average Precision: 0.760626631306836
+Epoch: 10. No improvement, best: 0.7705367665481931 current: 0.760626631306836. Counter: 7/12
+Done epoch: 10
+Epoch 10
+Loaded best saved model.
+Done batch: 1000/8000
+Done batch: 1000/8000
+Done batch: 2000/8000
+Done batch: 2000/8000
+Done batch: 3000/8000
+Done batch: 3000/8000
+Done batch: 4000/8000
+Done batch: 4000/8000
+Done batch: 5000/8000
+Done batch: 5000/8000
+Done batch: 6000/8000
+Done batch: 6000/8000
+Done batch: 7000/8000
+Done batch: 7000/8000
+Done batch: 8000/8000
+Done batch: 8000/8000
+Done batch: 1000/2200
+Done batch: 1000/2200
+Done batch: 2000/2200
+Epoch 11 Validation Average Precision: 0.7738011796747611
+Epoch: 11. Improvement of: 0.0010836047909213997
+Done epoch: 11
+Epoch 11
+Loaded best saved model.
+Done batch: 2000/2200
+Epoch 11 Validation Average Precision: 0.7523945732611236
+Epoch: 11. No improvement, best: 0.7705367665481931 current: 0.7523945732611236. Counter: 8/12
+Done epoch: 11
+Epoch 11
+Loaded best saved model.
+Done batch: 1000/8000
+slurmstepd: error: *** JOB 1017304 ON dart CANCELLED AT 2024-04-05T20:08:13 ***

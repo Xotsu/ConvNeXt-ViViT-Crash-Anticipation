@@ -1,0 +1,14 @@
+/cs/home/psyjn4/miniconda3/envs/torch/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /opt/conda/conda-bld/pytorch_1708025842427/work/torch/csrc/utils/tensor_new.cpp:275.)
+  return torch.tensor(value)
+Done batch: 1000/6600
+Done batch: 2000/6600
+Done batch: 3000/6600
+Done batch: 4000/6600
+Done batch: 5000/6600
+Done batch: 6000/6600
+Average Precision: 0.7279758534598242
+
+Precision: 0.5975833990018388
+Recall: 0.6893939393939394
+Average guess: 0.5742291808128357
+Test runtime:  8635.208868980408
