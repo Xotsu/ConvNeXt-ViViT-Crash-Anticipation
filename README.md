@@ -16,7 +16,7 @@ Training incorporated strategies like layer freezing, early stopping and pooling
 learning. Adam optimiser and Binary Cross-Entropy Loss were utilised to finetune model
 adjustments during training. Validation was conducted through a subset of the Dashcam
 Accident Dataset to monitor performance and adjust parameters dynamically. The proposed
-ConvNeXt-ViViT hybrid architecture achieves state-of-the-art 72.80% AP and 2.03 sec TTA
+ConvNeXt-ViViT hybrid architecture achieves **state-of-the-art 72.80% AP** and **2.03 sec TTA**
 when maximising AP for the DAD dataset. The architecture demonstrates its ability to
 capture spatial and temporal dynamics from its individual models and suggests that
 optimising ViViT temporal feature extraction can lead to improvements in TTA.
